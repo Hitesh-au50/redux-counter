@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+.container .border {
+  border: solid black 3px ;
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.increment {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.decrement {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+}
+
+span {
+  font-size: 24px;
+  margin: 0 20px;
+}
